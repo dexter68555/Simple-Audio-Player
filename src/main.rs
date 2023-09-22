@@ -8,9 +8,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut playlist: Vec<&str> = Vec::new();
 
     // Add audio files to the playlist (replace with your audio file)
-    playlist.push("HeyMama.mp3");
-    playlist.push("HeyMama.mp3");
-    playlist.push("HeyMama.mp3");
+    playlist.push("audiofile.mp3");
+    playlist.push("audiofile.mp3");
+    playlist.push("audiofile.mp3");
 
     // Loop through the playlist and play each audio file
     for audio_file in playlist {
